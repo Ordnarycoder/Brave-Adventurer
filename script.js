@@ -1,4 +1,3 @@
-// Get the buttons and status section from the DOM
 const attackButton = document.getElementById("attack-btn");
 const healthPotionButton = document.getElementById("health-btn");
 const dodgeButton = document.getElementById("dodge-btn");
@@ -135,10 +134,8 @@ class Game {
     }
 }   
 
-// Create an instance of the Game class
 const myGame = new Game();
 
-// Attach event listeners to the buttons
 attackButton.addEventListener("click", () => myGame.attack());
 healthPotionButton.addEventListener("click", () => myGame.healthPotion());
 dodgeButton.addEventListener("click", () => myGame.dodge());
