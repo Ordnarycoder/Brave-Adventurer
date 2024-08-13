@@ -1,1 +1,1 @@
-My firs js-html-css project. I was trying to make a palindrome checker.
+Brave Adventurer. A game based on js and html.
